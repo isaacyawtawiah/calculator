@@ -1,0 +1,43 @@
+.sizes .sz{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 10px;
+}
+.card a{
+    border-radius: 0;
+}
+.fs{
+    background-color:black ;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 10px;
+    color: plum;
+}
+
+
+.card{
+    position: relative;
+    margin: 20px;
+}
+.star{
+    position: relative;
+}
+.star::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: darkcyan;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 35%;
+    left: -5px;
+    border-left: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+
+}
